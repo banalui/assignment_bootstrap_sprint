@@ -1,0 +1,19 @@
+.main-wrapper{
+	background-color: orange;
+	height: 1000px;
+}
+
+.navbar-wrapper{
+	margin: auto;
+	max-width: 1200px;
+	@media (max-width: 1200px) {
+		max-width: 970px;
+	}
+	@media (max-width: 992px) {
+		max-width: 750px;
+	}
+}
+
+#email-password-form{
+	margin-bottom: 5px;
+}

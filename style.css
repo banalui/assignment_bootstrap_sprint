@@ -1,12 +1,18 @@
-.main-wrapper{
-	background-color: orange;
-	height: 1000px;
-}
+.main-wrapper {
+  background-color: orange;
+  height: 1000px; }
 
-.prject-name-link{
-	padding-left: 125px;
-}
+.navbar-wrapper {
+  margin: auto;
+  max-width: 1200px; }
+  @media (max-width: 1200px) {
+    .navbar-wrapper {
+      max-width: 970px; } }
+  @media (max-width: 992px) {
+    .navbar-wrapper {
+      max-width: 750px; } }
 
-.signin-btn{
-	margin-right: 125px;
-}
+#email-password-form {
+  margin-bottom: 5px; }
+
+/*# sourceMappingURL=style.css.map */
